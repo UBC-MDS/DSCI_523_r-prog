@@ -2,11 +2,7 @@
 
 Converting data from the form in which it is collected to the form needed for analysis. How to clean, filter, arrange, aggregate, and transform diverse data types, e.g. strings, numbers, and date-times.
 
-**Course Webpage** <https://github.ubc.ca/MDS-2018-19/DSCI_523_data-wrangling_students>
-
-**Slack channel:** <https://ubc-mds.slack.com/archives/523_data-wrangling>  
-
-## Course Learning Outcomes
+## Course Learning Objectives
 
 By the end of the course, students are expected to be able to:
 
@@ -31,32 +27,8 @@ By the end of the course, students are expected to be able to:
   1. Detect and handle duplicates and outliers.
 
   1. Determine appropriate manipulations for two-table data, including lookups and joins with suitably-selected columns.
-
-## Class Meetings
-
-This course occurs in **Block 2** in the 2018/19 school year.  
-**Lectures:** Tuesday and Thursday, 11:00-12:30, in [DMP 301](https://goo.gl/maps/P3eSZWYtkuE2)  
-**Labs:** Thursday, 13:30-15:30
-
-* Section 1: FNH 50
-* Section 2: PCOH 1001
-* Section 3: SWNG 305
-
-## Teaching Team
-
-| Position           | Name    | Slack Handle | GHE Handle | Office hours |
-| :----------------: | :-----: | :----------: | :--------: | :----------: |
-| Lecture Instructor | Jenny Bryan | `@jenny` | `@jennybc`  | Thurs 10/11 & 10/18<br>12:30pm (after class)<br>ICCS/CS room 246|
-| Lab Instructor     | Rodolfo | `@lourenzutti` | `@lourenzu` | **To check** | 
-| Teaching Assistant | Clement Fung | `@Clement Fung`| `@cfung1 ` | 16:00-17:00 on Wednesday in ESB 1043 |
-| Teaching Assistant | Aaron Berk   | `@aberk`| `@aberk` | 12:30-13:30 on Thursday in LSK 311|
-| Teaching Assistant | Katie Florko | `@Katie Florko`| `@kflork` | 13:00-14:00 on Tuesday in ESB 3167|
-
-*note - Attendance at office hours is optional* 
-
+  
 ## Lectures
-
-*Expect rolling updates as we move through this material in 2018. For example, the lecture on Python is new, so that will cause a bit of reshuffling in elsewhere, as we make room. However, no major content changes are planned*
 
 |   Lecture  | Date | Day | Topic | Readings
 |------------|------|-----|-------|---------|
@@ -69,26 +41,23 @@ This course occurs in **Block 2** in the 2018/19 school year.
 | 7 | 2018-10-30 | Tues | Using the purrr package to work with lists and iterate | [Workshop slides](https://speakerdeck.com/jennybc/purrr-workshop)<br>[My purrr tutorial website](https://jennybc.github.io/purrr-tutorial/index.html)<br>[Row-oriented workflows in R](https://github.com/jennybc/row-oriented-workflows#readme)<br>[How to work with list-columns (webinar)](https://resources.rstudio.com/webinars/how-to-work-with-list-columns-garrett-grolemund)<br>[Many model chapter of R4DS](https://r4ds.had.co.nz/many-models.html) |
 | 8 | 2018-11-01 | Thurs | Introduction to data wrangling in Python with `numpy` and `pandas` (guest lecture by Mike Gelbart & Tiffany Timbers) | TBD |
 
-## Live code from class
+## Assessments
 
-`.R` files and rendered `.md` from our class meetings will accumulate here:
+Lab Assignments
 
-  * [live-code-from-class](live-code-from-class)
+|     | Lab topic   | 
+|-----|-------------|
+| [1](labs/lab01/lab1.Rmd) | Using `dplyr` to manipulate a single data frame. | 
+| [2](labs/lab02/lab2.Rmd) | Tidying up messy dataset using `tidyr`, `stringr` and regular expressions. | 
+| [3](labs/lab03/lab3.Rmd) | Using `forcats` do deal with factors and explore some of relation database functions, such as, `join` and `merge`. Dealing with date using `lubridate` | 
+| [4](labs/lab04/lab4.Rmd) | Introduction to data wrangling in Python with `numpy` and `pandas` | 
 
-## Labs
+Quizzes
 
-|     | Lab topic   | Due Date |
-|-----|-------------|----------|
-| [1](labs/lab01/lab1.Rmd) | Using `dplyr` to manipulate a single data frame. | 2018-10-13 |
-| [2](labs/lab02/lab2.Rmd) | Tidying up messy dataset using `tidyr`, `stringr` and regular expressions. | 2018-10-20 |
-| [3](labs/lab03/lab3.Rmd) | Using `forcats` do deal with factors and explore some of relation database functions, such as, `join` and `merge`. Dealing with date using `lubridate` | 2018-10-27 |
-| [4](labs/lab04/lab4.Rmd) | Introduction to data wrangling in Python with `numpy` and `pandas` | 2018-11-03 |
-
-## Quizzes
-|     | Time | Date | Location |
-|-----|------|------|----------|
-|  1  | 13:30-14:00 | 2018-10-25 | In your lab |
-|  2  | 13:30-14:00 | 2018-11-08 | TBD |
+|     | Time | 
+|-----|------|
+|  1  | 13:30-14:00 | 
+|  2  | 13:30-14:00 | 
 
 ## Reference Material
 
